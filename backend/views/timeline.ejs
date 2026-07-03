@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MemoryVerse — Timeline</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body class="timeline-page">
+  <div class="cinema-bg"></div>
+
+  <header class="topbar">
+    <h1 class="logo">MemoryVerse</h1>
+
+    <div class="topbar-right">
+      <a href="/dashboard">
+        <button class="nav-btn">Dashboard</button>
+      </a>
+
+      <a href="/add-memory">
+        <button class="main-btn">+ New Memory</button>
+      </a>
+
+      <button id="slideshowBtn" class="nav-btn">Slideshow</button>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+  </header>
+
+  <section class="cinematic-hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-copy">
+      <span class="hero-mini">Your memories, beautifully organized</span>
+
+      <h1>
+        Every Memory
+        <span>Feels Cinematic</span>
+      </h1>
+
+      <p>
+        Your life stories transformed into a clean, visual timeline that is easy to browse.
+      </p>
+    </div>
+  </section>
+
+  <section class="content-section" id="memoriesSection">
+    <div class="section-title">
+      <h2>Your Timeline</h2>
+      <p>Every moment tells a story.</p>
+    </div>
+
+    <div id="memoriesContainer"></div>
+  </section>
+
+  <div id="slideshowModal">
+    <img id="slideImage" alt="Memory slideshow" />
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>

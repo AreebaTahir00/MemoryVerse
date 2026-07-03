@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MemoryVerse — Add Memory</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body class="form-page">
+  <div class="page-shell">
+    <div class="page-header">
+      <h1 class="logo">MemoryVerse</h1>
+      <a class="page-link" href="/timeline">← Back to Timeline</a>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h1>Add a New Frame 🎞️</h1>
+
+        <form id="memoryForm">
+          <label class="field-label" for="title">Title</label>
+          <input
+            type="text"
+            id="title"
+            placeholder="Give this memory a name"
+            required
+          />
+
+          <label class="field-label" for="description">Description</label>
+          <textarea
+            id="description"
+            placeholder="What happened, and why it matters"
+            rows="5"
+            required
+          ></textarea>
+
+          <label class="field-label" for="privacy">Privacy</label>
+          <select id="privacy">
+            <option value="private">Private 🔒</option>
+            <option value="public">Public 🌍</option>
+          </select>
+
+          <label class="field-label" for="location">Location</label>
+          <input
+            type="text"
+            id="location"
+            placeholder="Where was this taken?"
+          />
+
+          <label class="field-label" for="date">Date</label>
+          <input
+            type="date"
+            id="date"
+            required
+          />
+
+          <label class="field-label" for="image">Photo</label>
+          <input
+            type="file"
+            id="image"
+            accept="image/*"
+          />
+
+          <button type="submit">Save Memory</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>

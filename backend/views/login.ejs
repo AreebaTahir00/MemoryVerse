@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MemoryVerse — Login</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body class="auth-page">
+
+  <div class="auth-visual">
+    <div class="reel-line"></div>
+    <div class="visual-top">
+      <span class="eyebrow">Reel 001 — Sign In</span>
+      <h1 class="logo">MemoryVerse</h1>
+    </div>
+
+    <div class="visual-body">
+      <h2>Every memory deserves its own frame.</h2>
+      <p>Log back in to pick up your story where you left it.</p>
+
+      <div class="filmstrip-row">
+        <div class="frame" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=300&q=60')"></div>
+        <div class="frame" style="background-image:url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=300&q=60')"></div>
+        <div class="frame" style="background-image:url('https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=300&q=60')"></div>
+        <div class="frame" style="background-image:url('https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=300&q=60')"></div>
+      </div>
+    </div>
+
+    <span class="visual-foot">EST. YOUR ARCHIVE — ALWAYS ROLLING</span>
+  </div>
+
+  <div class="auth-form-side">
+    <div class="container">
+      <div class="card">
+        <h1 class="auth-logo">Welcome back</h1>
+        <p class="auth-subtitle">Sign in to your cinematic memory archive</p>
+
+        <form id="loginForm">
+          <div class="input-group">
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <span class="input-icon">✉</span>
+          </div>
+
+          <div class="input-group">
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+            <span class="input-icon">🔒</span>
+          </div>
+
+          <button type="submit" class="auth-btn">Log In</button>
+        </form>
+
+        <div class="auth-footer">
+          Don't have an account?
+          <a href="/register">Register</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
