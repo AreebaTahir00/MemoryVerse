@@ -54,19 +54,19 @@ The goal was to go beyond a default-styled CRUD app and give it a real visual id
 > Screenshots are in the `/screenshots` folder — see below to add yours.
 
 ### Register
-![Register Page](screenshots/Register.png)
+![Register Page](backend/screenshots/Register.png)
 
 ### Login
-![Login Page](screenshots/Login.png)
+![Login Page](backend/screenshots/Login.png)
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](backend/screenshots/Dashboard.png)
 
 ### Timeline
-![Timeline](screenshots/Timeline.png)
+![Timeline](backend/screenshots/Timeline.png)
 
 ### Add Memory
-![Add Memory](screenshots/AddMemory.png)
+![Add Memory](backend/screenshots/AddMemory.png)
 
 ---
 
